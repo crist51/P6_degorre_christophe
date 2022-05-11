@@ -1,0 +1,6 @@
+#ignore an entire directory
+node_modules
+images
+
+# ignorea a file type
+*.txt
