@@ -10,7 +10,7 @@ const userRoutes = require('./routes/user');
 const app = express();
 app.use(cors());
 
-mongoose.connect('mongodb+srv://christophe:Black0451@cluster0.ufnf1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://****:****@cluster0.ufnf1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
 {
         useNewUrlParser: true,
         useUnifiedTopology: true
